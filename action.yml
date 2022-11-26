@@ -1,0 +1,15 @@
+name: 'code statistics analyzer'
+description: ''
+branding:
+  icon: sliders
+  color: purple
+inputs:
+  owner:
+    description: ''
+    required: false
+outputs:
+  summary-title:
+    description: ''
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
